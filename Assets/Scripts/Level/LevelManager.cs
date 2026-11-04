@@ -1,12 +1,11 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
-    public Level[] levels = new Level[0];
-    private Level currentLevel;
-    public GameObject playerPrefab;
-    private int currentIndex;
+    public List<GameObject> cameraLevelsPos = new List<GameObject>();
+    public int CurrentLevelIndex { get; set; } = 0;
 
     private void Awake()
     {
@@ -16,19 +15,20 @@ public class LevelManager : MonoBehaviour
             return;
         }
         Instance = this;
-        LoadLevel(0);
     }
 
-    public void LoadLevel(int index)
+    private void Start()
     {
-        if (currentLevel != null) Destroy(currentLevel);
-        currentIndex = index;
-        currentLevel = Instantiate(levels[index]);
-        currentLevel.gameObject.SetActive(true);
+        for(int i = 0; i < transform.childCount; i++)
+        {
+            cameraLevelsPos.Add(transform.GetChild(i).gameObject);
+            Debug.Log(cameraLevelsPos[i].gameObject.name);
+        }
     }
 
-    private void LoadPlayer() 
+    public void ChangeLevelCamera(int index)
     {
-        
-    }
+        Camera.main.gameObject.transform.position = cameraLevelsPos[index].transform.position;
+        CurrentLevelIndex = index;
+	}
 }
