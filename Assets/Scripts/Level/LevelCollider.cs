@@ -3,18 +3,14 @@ using UnityEngine;
 
 public class LevelCollider : MonoBehaviour
 {
+    public Collider2D thisCollider { get; private set; }
+    private Camera levelCam;
 
-    [SerializeField] private LevelConnection connection;
+    [SerializeField] private int levelId;
 
-    [SerializeField] private int firstLevelLink;
-    [SerializeField] private int secondLevelLink;
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    void Start() 
     {
-        if (collision.CompareTag("Player"))
-        {
-             LevelConnection.ActiveConnection = connection;
-             LevelManager.Instance.ChangeLevelCamera(LevelManager.Instance.CurrentLevelIndex == firstLevelLink ? secondLevelLink : firstLevelLink); 
-        }
+        thisCollider = GetComponent<Collider2D>();
     }
+
 }

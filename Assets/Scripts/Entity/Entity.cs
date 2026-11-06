@@ -9,7 +9,8 @@ public abstract class Entity : MonoBehaviour
 	public virtual int Lives { get; protected set; }
 	public virtual EDeathState DeathState { get; protected set; }
 	protected readonly float defKnockBack = 5;
-	private readonly string deathMaskHash = "Death";
+	protected readonly string deathMaskHash = "Death";
+	protected readonly string lifeMaskHash = "Default";
 
 	// -- COMPONENTS
 	protected Rigidbody2D rb;
@@ -29,7 +30,7 @@ public abstract class Entity : MonoBehaviour
 		StartCoroutine(DyingRoutine());
 	}
 
-	protected virtual void TakeDamage(int damage, float knockBackPower, Vector2 enemyPos) 
+	public virtual void TakeDamage(int damage, float knockBackPower, Vector2 enemyPos) 
 	{
 		Stun(knockBackPower, enemyPos);
 		Lives -= damage;
@@ -39,9 +40,10 @@ public abstract class Entity : MonoBehaviour
 	protected virtual void Stun(float knockBackPower, Vector2 enemyPos) 
 	{
 		if (IsStunned) return;
+		rb.linearVelocity = Vector2.zero;
 		Vector2 direction = enemyPos - (Vector2)transform.position;
 		float pseudoDirection = -Mathf.Sign(direction.x);
-		rb.AddForce(new Vector2(knockBackPower * pseudoDirection, knockBackPower), ForceMode2D.Impulse);
+		rb.AddForce(new Vector2(knockBackPower * pseudoDirection, knockBackPower * rb.gravityScale), ForceMode2D.Impulse);
 		IsStunned = true;
 	}
 

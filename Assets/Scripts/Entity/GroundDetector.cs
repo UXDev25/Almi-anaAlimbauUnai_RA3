@@ -4,8 +4,8 @@ using UnityEngine;
 public class GroundDetector : MonoBehaviour
 {
 	private Entity groundUser;
-	[SerializeField] private float detectionRadius;
-	[SerializeField] private LayerMask groundMask;
+	public float detectionRadius;
+	public LayerMask groundMask;
 	public bool IsGrounded { get; protected set; }
 	public Transform groundChecker;
 
@@ -23,4 +23,11 @@ public class GroundDetector : MonoBehaviour
             groundUser.IsStunned = false;
         }
     }
+
+	private void OnDrawGizmos()
+	{
+		Gizmos.color = Color.red;
+		Gizmos.DrawWireSphere(groundChecker.position, detectionRadius);
+
+	}
 }

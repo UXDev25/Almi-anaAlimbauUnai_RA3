@@ -1,7 +1,7 @@
 using System.Collections;
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 {
@@ -10,43 +10,66 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	public PlayerData data;
 	private GroundDetector groundDetector;
 	private SpriteRenderer sprite;
-	[SerializeField] private float TurnAroundTime = 0.5f;
-    [SerializeField] private float gravityChangeImpulse = 5f;
+	
 
-
-    // -- VARIABLES
-    Vector2 MoveValue;
+	// -- VARIABLES
+	public List<LevelCollider> InSceneColliders { get; set; } = new List<LevelCollider>();
+	Vector2 MoveValue;
 	private bool isGravityUpside = false;
+	public bool CanPlay { get; set; } = true;
 	[SerializeField] private float GravityMult = 1;
+	[SerializeField] private float dieTime = 2;
+	[SerializeField] private float TurnAroundTime = 0.5f;
+	[SerializeField] private float gravityChangeImpulse = 5f;
 
-	protected override void Start() 
-	{ 
+	protected override void Start()
+	{
 		base.Start();
-		isGravityUpside=false;
 		groundDetector = GetComponent<GroundDetector>();
 		sprite = GetComponentInChildren<SpriteRenderer>();
-    }
+		ResetCharacter();
+	}
 
 	void Awake()
-    {
+	{
 		inputActions = new InputSystem_Actions();
 		inputActions.Player.SetCallbacks(this);
 	}
 
-    private void OnEnable() => inputActions.Player.Enable();
-    private void OnDisable() => inputActions.Player.Disable();
+	private void OnEnable() => inputActions.Player.Enable();
+	private void OnDisable() => inputActions.Player.Disable();
 
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        groundDetector.DetectGround();
-        CalculateMoveSpeed(MoveValue);
-    }
+	// Update is called once per frame
+	void FixedUpdate()
+	{
+		if (!CanPlay) return;
+		groundDetector.DetectGround();
+		CalculateMoveSpeed(MoveValue);
+		Debug.Log($"colliders player is touching: {InSceneColliders.Count}");
+	}
 
-    protected override IEnumerator DyingRoutine()
-    {
-        throw new System.NotImplementedException("Cannot Die Yet");
-    }
+	protected override IEnumerator DyingRoutine()
+	{
+		CanPlay = false;
+		yield return new WaitForSeconds(dieTime);
+		GameEvents.PlayerDied();
+		ResetCharacter();
+	}
+
+	protected virtual void ResetCharacter()
+	{
+		CanPlay = true;
+		Lives = 1;
+		transform.position = LevelManager.Instance.FirstSpawn.position;
+		DeathState = EDeathState.Alive;
+		gameObject.layer = LayerMask.NameToLayer(lifeMaskHash);
+		groundDetector.groundChecker.localPosition = new Vector3(0, -Mathf.Abs(groundDetector.groundChecker.localPosition.y), 0);
+		sprite.transform.rotation = Quaternion.Euler(0, 0, 0);
+		IsStunned = false;
+		isGravityUpside = false;
+		rb.linearVelocity = Vector3.zero;
+		rb.gravityScale = GravityMult;
+	}
 
 	public void CalculateMoveSpeed(Vector2 moveValue) 
 	{
