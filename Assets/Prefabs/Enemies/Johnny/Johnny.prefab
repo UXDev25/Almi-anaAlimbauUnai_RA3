@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2316041345684325304}
   - component: {fileID: 4913158307853410562}
   - component: {fileID: 1426009914837313859}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Johnny
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ MonoBehaviour:
   knockBackPow: 10
   edgeChecker: {fileID: 4589267678241718718}
   wallRayCastSize: 0.6
-  maxWalkSpeed: 2
+  maxWalkSpeed: 6
   GroundRayCastSize: 0.25
   groundAndPlayerMask:
     serializedVersion: 2
@@ -208,7 +208,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7320075024373905502}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4589267678241718718}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GroundChecker
   m_TagString: Untagged
   m_Icon: {fileID: 0}

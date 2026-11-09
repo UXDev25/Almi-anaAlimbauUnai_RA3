@@ -23,17 +23,24 @@ public class JohnnyManager : EnemyManager
 
 	private void FixedUpdate()
 	{
-		Debug.Log($"near edge: {IsNearEdge()}, raycast: {raycastHit}, isgrounded {groundDetector.IsGrounded}, isStunned{IsStunned}");
 		if (IsStunned) return;
 		if (Lives <= 0) Die();
-		FlipDirection(isFacingRight);
+
 		groundDetector.DetectGround();
-		if (!IsStunned) rb.linearVelocityX = maxWalkSpeed * transform.localScale.x;
-		raycastHit = Physics2D.Raycast(transform.position, Vector2.right * transform.localScale.x, wallRayCastSize, groundAndPlayerMask);
-		if ((raycastHit.collider.CompareTag("Ground") || IsNearEdge()) && groundDetector.IsGrounded && !IsStunned)
+
+		Vector2 dir = Vector2.right * transform.localScale.x;
+		raycastHit = Physics2D.Raycast(transform.position, dir, wallRayCastSize, groundAndPlayerMask);
+		Debug.DrawRay(transform.position, dir * wallRayCastSize, Color.red);
+
+		bool hitWall = raycastHit.collider != null && raycastHit.collider.CompareTag("Ground");
+
+		if (hitWall || (IsNearEdge() && groundDetector.IsGrounded))
 		{
 			isFacingRight = !isFacingRight;
 		}
+
+		FlipDirection(isFacingRight);
+		rb.linearVelocityX = maxWalkSpeed * transform.localScale.x;
 	}
 
 

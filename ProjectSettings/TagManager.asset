@@ -15,8 +15,8 @@ TagManager:
   - Ground
   - Death
   - LevelCollider
-  - 
-  - 
+  - Enemy
+  - EnemyTwo
   - 
   - 
   - 
