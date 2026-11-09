@@ -14354,22 +14354,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Johnny
       objectReference: {fileID: 0}
-    - target: {fileID: 1309732909039070673, guid: 6fdb33aec6dab104a89e567c656f587b, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1426009914837313859, guid: 6fdb33aec6dab104a89e567c656f587b, type: 3}
-      propertyPath: groundMask.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
-    - target: {fileID: 4913158307853410562, guid: 6fdb33aec6dab104a89e567c656f587b, type: 3}
-      propertyPath: m_Radius
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4913158307853410562, guid: 6fdb33aec6dab104a89e567c656f587b, type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6496959682508227563, guid: 6fdb33aec6dab104a89e567c656f587b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32

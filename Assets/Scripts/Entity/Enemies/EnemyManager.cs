@@ -14,6 +14,7 @@ public class EnemyManager : Entity, IDeadly
 
 	protected void FlipDirection(bool enemyCondition)
 	{
+		Debug.Log(enemyCondition);
 		transform.localScale = enemyCondition ? new Vector3(enemySize, enemySize, 1) : new Vector3(-enemySize, enemySize, 1);
 	}
 
