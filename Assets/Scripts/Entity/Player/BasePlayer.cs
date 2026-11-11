@@ -23,18 +23,18 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	[SerializeField] private float TurnAroundTime = 0.5f;
 	[SerializeField] private float gravityChangeImpulse = 5f;
 
-	protected override void Start()
+    void Awake()
+    {
+        inputActions = new InputSystem_Actions();
+        inputActions.Player.SetCallbacks(this);
+    }
+
+    protected override void Start()
 	{
 		base.Start();
 		groundDetector = GetComponent<GroundDetector>();
 		sprite = GetComponentInChildren<SpriteRenderer>();
 		ResetCharacter();
-	}
-
-	void Awake()
-	{
-		inputActions = new InputSystem_Actions();
-		inputActions.Player.SetCallbacks(this);
 	}
 
 	private void OnEnable() 
@@ -60,14 +60,15 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	protected override IEnumerator DyingRoutine()
 	{
 		canPlay = false;
-		yield return new WaitForSeconds(dieTime);
-		GameEvents.PlayerDied();
+        GameEvents.PlayerDied();
+        yield return new WaitForSeconds(dieTime);
 		ResetCharacter();
 	}
 
 	protected virtual void ResetCharacter()
 	{
-		canPlay = true;
+		GameEvents.PlayerRespawned();
+        canPlay = true;
 		Lives = 1;
 		transform.position = LevelManager.Instance.FirstSpawn.position;
 		DeathState = EDeathState.Alive;

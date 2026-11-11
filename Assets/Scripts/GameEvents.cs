@@ -7,6 +7,8 @@ public static class GameEvents
 	public static event Action OnPlayerWon;
 	public static event Action<bool> OnShowPauseMenu;
 
+	public static event Action OnPlayerRespawned;
+
     public static void PlayerDied()
 	{
 		OnPlayerDied?.Invoke();
@@ -20,5 +22,10 @@ public static class GameEvents
 	public static void ShowPauseMenu(bool shouldShow)
     {
         OnShowPauseMenu?.Invoke(shouldShow);
+    }
+
+	public static void PlayerRespawned()
+    {
+        OnPlayerRespawned?.Invoke();
     }
 }

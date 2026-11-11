@@ -8,16 +8,8 @@ public class LevelManager : MonoBehaviour
     public List<LevelCollider> cameraLevelsPos = new List<LevelCollider>();
     public Collider2D CurrentLevelArea { get; set; }
     public Transform FirstSpawn;
-
-    void OnEnable()
-    {
-        GameEvents.OnPlayerDied += ResetGame;
-    }
-
-    void OnDisable()
-    {
-		GameEvents.OnPlayerDied -= ResetGame;
-	}
+    public BasePlayer Player { get; set; }
+    [SerializeField] private GameObject PlayerPrefab;
 
     private void Awake()
     {
@@ -36,11 +28,7 @@ public class LevelManager : MonoBehaviour
             cameraLevelsPos.Add(transform.GetChild(i).gameObject.GetComponent<LevelCollider>());
             Debug.Log(cameraLevelsPos[i].gameObject.name);
         }
-    }
-
-    public void ResetGame() 
-    {
-        
+        Player = Instantiate(PlayerPrefab).GetComponent<BasePlayer>();
     }
     public void ChangeLevelCamera(int index)
     {
