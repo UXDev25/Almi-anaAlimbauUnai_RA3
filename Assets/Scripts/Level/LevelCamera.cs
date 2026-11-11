@@ -3,7 +3,6 @@ using UnityEngine;
 public class LevelCamera : MonoBehaviour
 {
 	[SerializeField] private Transform player;
-	[SerializeField] private LevelCollider[] zones;
 	[SerializeField] private float smoothTime = 0.25f;
 
 	LevelCollider currentLevel;
@@ -11,7 +10,7 @@ public class LevelCamera : MonoBehaviour
 
 	void LateUpdate()
 	{
-		foreach (var level in zones)
+		foreach (var level in LevelManager.Instance.cameraLevelsPos)
 		{
 			if (level.thisCollider.OverlapPoint(player.position))
 			{

@@ -16,8 +16,9 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	public List<LevelCollider> InSceneColliders { get; set; } = new List<LevelCollider>();
 	Vector2 MoveValue;
 	private bool isGravityUpside = false;
-	public bool CanPlay { get; set; } = true;
-	[SerializeField] private float GravityMult = 1;
+	private bool canPlay = true;
+	private bool isPaused = false;
+    [SerializeField] private float GravityMult = 1;
 	[SerializeField] private float dieTime = 2;
 	[SerializeField] private float TurnAroundTime = 0.5f;
 	[SerializeField] private float gravityChangeImpulse = 5f;
@@ -36,13 +37,21 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 		inputActions.Player.SetCallbacks(this);
 	}
 
-	private void OnEnable() => inputActions.Player.Enable();
-	private void OnDisable() => inputActions.Player.Disable();
-
-	// Update is called once per frame
-	void FixedUpdate()
+	private void OnEnable() 
 	{
-		if (!CanPlay) return;
+		inputActions.Player.Enable();
+        GameEvents.OnPlayerWon += DisablePlay;
+    }
+	private void OnDisable() 
+	{
+		inputActions.Player.Disable();
+        GameEvents.OnPlayerWon -= DisablePlay;
+    }
+
+    private void DisablePlay() => canPlay = false;
+    void FixedUpdate()
+	{
+		if (!canPlay) return;
 		groundDetector.DetectGround();
 		CalculateMoveSpeed(MoveValue);
 		Debug.Log($"colliders player is touching: {InSceneColliders.Count}");
@@ -50,7 +59,7 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 
 	protected override IEnumerator DyingRoutine()
 	{
-		CanPlay = false;
+		canPlay = false;
 		yield return new WaitForSeconds(dieTime);
 		GameEvents.PlayerDied();
 		ResetCharacter();
@@ -58,7 +67,7 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 
 	protected virtual void ResetCharacter()
 	{
-		CanPlay = true;
+		canPlay = true;
 		Lives = 1;
 		transform.position = LevelManager.Instance.FirstSpawn.position;
 		DeathState = EDeathState.Alive;
@@ -116,15 +125,6 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	{
 		MoveValue = context.ReadValue<Vector2>();
 	}
-
-	public void OnAttack(InputAction.CallbackContext context)
-	{
-		if (context.performed)
-		{
-			// Lógica de ataque
-		}
-	}
-
 	public void OnInteract(InputAction.CallbackContext context)
 	{
 		if (context.performed)
@@ -132,15 +132,6 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 			// Lógica de interacción
 		}
 	}
-
-	public void OnCrouch(InputAction.CallbackContext context)
-	{
-		if (context.performed)
-		{
-			// Lógica de agacharse
-		}
-	}
-
 	public void OnTurnGravity(InputAction.CallbackContext context)
 	{
 		if (context.performed && groundDetector.IsGrounded)
@@ -148,4 +139,13 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 			TurnGravity();
 		}
 	}
+
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            isPaused = !isPaused;
+            GameEvents.ShowPauseMenu(isPaused);
+        }
+    }
 }
