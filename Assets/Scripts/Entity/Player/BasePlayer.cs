@@ -8,16 +8,18 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	// -- COMPONENTS
 	private InputSystem_Actions inputActions;
 	public PlayerData data;
-	private GroundDetector groundDetector;
+	public GroundDetector groundDetector;
 	private SpriteRenderer sprite;
+	public NPCController foundNPC;
 	
 
 	// -- VARIABLES
 	public List<LevelCollider> InSceneColliders { get; set; } = new List<LevelCollider>();
-	Vector2 MoveValue;
+	public Vector2 MoveValue { get; set; }
 	private bool isGravityUpside = false;
-	private bool canPlay = true;
-	private bool isPaused = false;
+	public bool CanPlay { get; set; } = true;
+	public bool IsTurning { get; set; } = false;
+    private bool isPaused = false;
     [SerializeField] private float GravityMult = 1;
 	[SerializeField] private float dieTime = 2;
 	[SerializeField] private float TurnAroundTime = 0.5f;
@@ -33,7 +35,7 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	{
 		base.Start();
 		groundDetector = GetComponent<GroundDetector>();
-		sprite = GetComponentInChildren<SpriteRenderer>();
+		sprite = GetComponent<SpriteRenderer>();
 		ResetCharacter();
 	}
 
@@ -48,18 +50,18 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
         GameEvents.OnPlayerWon -= DisablePlay;
     }
 
-    private void DisablePlay() => canPlay = false;
+    private void DisablePlay() => CanPlay = false;
     void FixedUpdate()
 	{
-		if (!canPlay) return;
+		if (!CanPlay) return;
 		groundDetector.DetectGround();
-		CalculateMoveSpeed(MoveValue);
-		Debug.Log($"colliders player is touching: {InSceneColliders.Count}");
-	}
+		if (groundDetector.IsGrounded) IsTurning = false;
+        CalculateMoveSpeed(MoveValue);
+    }
 
 	protected override IEnumerator DyingRoutine()
 	{
-		canPlay = false;
+		CanPlay = false;
         GameEvents.PlayerDied();
         yield return new WaitForSeconds(dieTime);
 		ResetCharacter();
@@ -68,14 +70,15 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	protected virtual void ResetCharacter()
 	{
 		GameEvents.PlayerRespawned();
-        canPlay = true;
+        IsTurning = false;
+        CanPlay = true;
 		Lives = 1;
 		transform.position = LevelManager.Instance.FirstSpawn.position;
 		DeathState = EDeathState.Alive;
 		gameObject.layer = LayerMask.NameToLayer(lifeMaskHash);
 		groundDetector.groundChecker.localPosition = new Vector3(0, -Mathf.Abs(groundDetector.groundChecker.localPosition.y), 0);
-		sprite.transform.rotation = Quaternion.Euler(0, 0, 0);
-		IsStunned = false;
+		sprite.flipY = false;
+        IsStunned = false;
 		isGravityUpside = false;
 		rb.linearVelocity = Vector3.zero;
 		rb.gravityScale = GravityMult;
@@ -92,6 +95,8 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 
 	private void TurnGravity() 
 	{
+		
+		IsTurning = true;
 		rb.linearVelocityY = 0;
         isGravityUpside = !isGravityUpside;
         rb.gravityScale = isGravityUpside ? -GravityMult : GravityMult;
@@ -99,26 +104,7 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 
         rb.AddForce(gravityDir * gravityChangeImpulse * GravityMult, ForceMode2D.Impulse);
 		groundDetector.groundChecker.localPosition = new Vector3(0, -groundDetector.groundChecker.localPosition.y, 0);
-        StartCoroutine(TurnCharacterUpside());
 	}
-
-    private IEnumerator TurnCharacterUpside() // -- Coroutine to smoothly rotate the character sprite when gravity is flipped
-    {
-        float startAngle = sprite.transform.eulerAngles.z;
-        float targetAngle = isGravityUpside ? 180f : 0f;
-        float elapsed = 0f;
-
-        while (elapsed < TurnAroundTime)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsed / TurnAroundTime);
-            float angle = Mathf.LerpAngle(startAngle, targetAngle, t);
-            sprite.transform.rotation = Quaternion.Euler(0, 0, angle);
-            yield return null; 
-        }
-
-        sprite.transform.rotation = Quaternion.Euler(0, 0, targetAngle);
-    }
 
 
     // --INPUTS
@@ -130,12 +116,15 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
 	{
 		if (context.performed)
 		{
-			// Lógica de interacción
+			if (foundNPC != null)
+			{
+                foundNPC.Interact();
+			}
 		}
 	}
 	public void OnTurnGravity(InputAction.CallbackContext context)
 	{
-		if (context.performed && groundDetector.IsGrounded)
+		if (context.performed && groundDetector.IsGrounded && CanPlay)
 		{
 			TurnGravity();
 		}
@@ -149,4 +138,5 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
             GameEvents.ShowPauseMenu(isPaused);
         }
     }
+
 }

@@ -1,0 +1,19 @@
+﻿title: Start
+---
+<<set_portrait RandomNPC_Default>>
+<<set_player_canPlay false>>
+Narrator: Hello! Testing dialogue system, will it work well?
+-> yeah!
+    <<jump TestGoodRespone>>
+-> nah, it sucks
+Narrator: Bruuuhhh....
+<<set_portrait none>>
+<<set_player_canPlay true>>
+===
+
+title: TestGoodRespone
+---
+Narrator: Cool!
+<<set_portrait none>>
+<<set_player_canPlay true>>
+===

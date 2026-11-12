@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: 6c5ea3d2e24855441b931f19fd2f76db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7796899919327893177
+    second: pngtree-a-rat-close-up-png-image_15564008_0
+  - first:
+      213: -2446950098868322962
+    second: pngtree-a-rat-close-up-png-image_15564008_1
+  - first:
+      213: 3324336572432072915
+    second: pngtree-a-rat-close-up-png-image_15564008_2
+  - first:
+      213: 3481327659217999506
+    second: pngtree-a-rat-close-up-png-image_15564008_3
+  - first:
+      213: -2981470312497100364
+    second: pngtree-a-rat-close-up-png-image_15564008_4
+  - first:
+      213: -4589190151564699099
+    second: pngtree-a-rat-close-up-png-image_15564008_5
+  - first:
+      213: 4008463405001733935
+    second: pngtree-a-rat-close-up-png-image_15564008_6
+  - first:
+      213: -7713926361409991653
+    second: pngtree-a-rat-close-up-png-image_15564008_7
+  - first:
+      213: -434929633839121130
+    second: pngtree-a-rat-close-up-png-image_15564008_8
+  - first:
+      213: -2904845410553548527
+    second: pngtree-a-rat-close-up-png-image_15564008_9
+  - first:
+      213: 678267615615521394
+    second: pngtree-a-rat-close-up-png-image_15564008_10
+  - first:
+      213: -2579262878426328228
+    second: pngtree-a-rat-close-up-png-image_15564008_11
+  - first:
+      213: 937542616602340402
+    second: pngtree-a-rat-close-up-png-image_15564008_12
+  - first:
+      213: 3764605369757204255
+    second: pngtree-a-rat-close-up-png-image_15564008_13
+  - first:
+      213: -5987035191547327735
+    second: pngtree-a-rat-close-up-png-image_15564008_14
+  - first:
+      213: 3708535282162084290
+    second: pngtree-a-rat-close-up-png-image_15564008_15
+  - first:
+      213: 5968391471031744173
+    second: pngtree-a-rat-close-up-png-image_15564008_16
+  - first:
+      213: 111393436691832800
+    second: pngtree-a-rat-close-up-png-image_15564008_17
+  - first:
+      213: 4130330755777351548
+    second: pngtree-a-rat-close-up-png-image_15564008_18
+  - first:
+      213: -7405526849786088241
+    second: pngtree-a-rat-close-up-png-image_15564008_19
+  - first:
+      213: -2941314174559428177
+    second: pngtree-a-rat-close-up-png-image_15564008_20
+  - first:
+      213: -127193143873899783
+    second: pngtree-a-rat-close-up-png-image_15564008_21
+  - first:
+      213: -1780448505451829296
+    second: pngtree-a-rat-close-up-png-image_15564008_22
+  - first:
+      213: -9043798867220207824
+    second: pngtree-a-rat-close-up-png-image_15564008_23
+  - first:
+      213: 5929321508748337190
+    second: pngtree-a-rat-close-up-png-image_15564008_24
+  - first:
+      213: -2150400582307059181
+    second: pngtree-a-rat-close-up-png-image_15564008_25
+  - first:
+      213: 8769871463986662484
+    second: pngtree-a-rat-close-up-png-image_15564008_26
+  - first:
+      213: -5378414135513097120
+    second: pngtree-a-rat-close-up-png-image_15564008_27
+  - first:
+      213: 4150888346233182055
+    second: pngtree-a-rat-close-up-png-image_15564008_28
+  - first:
+      213: -4230784082037385847
+    second: pngtree-a-rat-close-up-png-image_15564008_29
+  - first:
+      213: 1871734402113321112
+    second: pngtree-a-rat-close-up-png-image_15564008_30
+  - first:
+      213: -4672215081601911907
+    second: pngtree-a-rat-close-up-png-image_15564008_31
+  - first:
+      213: -8130013284511255077
+    second: pngtree-a-rat-close-up-png-image_15564008_32
+  - first:
+      213: -7264881295801025309
+    second: pngtree-a-rat-close-up-png-image_15564008_33
+  - first:
+      213: 6487689905311370807
+    second: pngtree-a-rat-close-up-png-image_15564008_34
+  - first:
+      213: -5093973104412402831
+    second: pngtree-a-rat-close-up-png-image_15564008_35
+  - first:
+      213: 1471297753263001726
+    second: pngtree-a-rat-close-up-png-image_15564008_36
+  - first:
+      213: 8813521667595438630
+    second: pngtree-a-rat-close-up-png-image_15564008_37
+  - first:
+      213: -2354150483602302181
+    second: pngtree-a-rat-close-up-png-image_15564008_38
+  - first:
+      213: -7091828906772306749
+    second: pngtree-a-rat-close-up-png-image_15564008_39
+  - first:
+      213: -2002396101234879875
+    second: pngtree-a-rat-close-up-png-image_15564008_40
+  - first:
+      213: 6041271459244703476
+    second: pngtree-a-rat-close-up-png-image_15564008_41
+  - first:
+      213: 41104658795120824
+    second: pngtree-a-rat-close-up-png-image_15564008_42
+  - first:
+      213: -7571215788104123931
+    second: pngtree-a-rat-close-up-png-image_15564008_43
+  - first:
+      213: -1889963099995289623
+    second: pngtree-a-rat-close-up-png-image_15564008_44
+  - first:
+      213: 8925905405462274935
+    second: pngtree-a-rat-close-up-png-image_15564008_45
+  - first:
+      213: 3356328382764760555
+    second: pngtree-a-rat-close-up-png-image_15564008_46
+  - first:
+      213: -2274230915006479678
+    second: pngtree-a-rat-close-up-png-image_15564008_47
+  - first:
+      213: -8180644742444436733
+    second: pngtree-a-rat-close-up-png-image_15564008_48
+  - first:
+      213: 5963245909993759816
+    second: pngtree-a-rat-close-up-png-image_15564008_49
+  - first:
+      213: 1219258418819989229
+    second: pngtree-a-rat-close-up-png-image_15564008_50
+  - first:
+      213: -8541048050473815456
+    second: pngtree-a-rat-close-up-png-image_15564008_51
+  - first:
+      213: 5778809315518110601
+    second: pngtree-a-rat-close-up-png-image_15564008_52
+  - first:
+      213: 2907577255955759766
+    second: pngtree-a-rat-close-up-png-image_15564008_53
+  - first:
+      213: -5709414026432725265
+    second: pngtree-a-rat-close-up-png-image_15564008_54
+  - first:
+      213: -7316283478081945490
+    second: pngtree-a-rat-close-up-png-image_15564008_55
+  - first:
+      213: -537866468504483386
+    second: pngtree-a-rat-close-up-png-image_15564008_56
+  - first:
+      213: -4572901209088842997
+    second: pngtree-a-rat-close-up-png-image_15564008_57
+  - first:
+      213: 3131408823784824158
+    second: pngtree-a-rat-close-up-png-image_15564008_58
+  - first:
+      213: -555264018471212794
+    second: pngtree-a-rat-close-up-png-image_15564008_59
+  - first:
+      213: 2643092169699967903
+    second: pngtree-a-rat-close-up-png-image_15564008_60
+  - first:
+      213: 6000777098080923959
+    second: pngtree-a-rat-close-up-png-image_15564008_61
+  - first:
+      213: -5115479426415944990
+    second: pngtree-a-rat-close-up-png-image_15564008_62
+  - first:
+      213: -1112138219894950293
+    second: pngtree-a-rat-close-up-png-image_15564008_63
+  - first:
+      213: 5449676283518643130
+    second: pngtree-a-rat-close-up-png-image_15564008_64
+  - first:
+      213: -1094269855355476320
+    second: pngtree-a-rat-close-up-png-image_15564008_65
+  - first:
+      213: 2178963124269544325
+    second: pngtree-a-rat-close-up-png-image_15564008_66
+  - first:
+      213: 4069390743580769877
+    second: pngtree-a-rat-close-up-png-image_15564008_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b69fc8ba27243c60800000000000000
+      internalID: 7796899919327893177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db8dd79dfaa0ed0800000000000000
+      internalID: -2446950098868322962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d047a1ef7a622e20800000000000000
+      internalID: 3324336572432072915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2965e6aaf09205030800000000000000
+      internalID: 3481327659217999506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_4
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9cc3b1c80bf96d0800000000000000
+      internalID: -2981470312497100364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_5
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ad3492fdbef40c0800000000000000
+      internalID: -4589190151564699099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_6
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27f746aa3ce0a730800000000000000
+      internalID: 4008463405001733935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_7
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cc2ac28d0a2f490800000000000000
+      internalID: -7713926361409991653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_8
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d7ab86dc1d6f9f0800000000000000
+      internalID: -434929633839121130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_9
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11138885d7aefa7d0800000000000000
+      internalID: -2904845410553548527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_10
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2721a638dc0b96900800000000000000
+      internalID: 678267615615521394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_11
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 2390
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c531c0dd31e943cd0800000000000000
+      internalID: -2579262878426328228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_12
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2397
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c6f50ea02d20d00800000000000000
+      internalID: 937542616602340402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_13
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2308
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ff7e753a09e3430800000000000000
+      internalID: 3764605369757204255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_14
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b0f06c637c9eca0800000000000000
+      internalID: -5987035191547327735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_15
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2308
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c92642c03d577330800000000000000
+      internalID: 3708535282162084290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_16
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da67157cb6cf3d250800000000000000
+      internalID: 5968391471031744173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_17
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2308
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef93509dbfbb8100800000000000000
+      internalID: 111393436691832800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_18
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fcafe50f1e15930800000000000000
+      internalID: 4130330755777351548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_19
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 2308
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4f1e7f0984a3990800000000000000
+      internalID: -7405526849786088241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_20
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2346
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1609c875a5e27d0800000000000000
+      internalID: -2941314174559428177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_21
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2f781728e1c3ef0800000000000000
+      internalID: -127193143873899783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_22
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d72bab74839a47e0800000000000000
+      internalID: -1780448505451829296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_23
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037624ba8d8fd7280800000000000000
+      internalID: -9043798867220207824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_24
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62027005f7e294250800000000000000
+      internalID: 5929321508748337190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_25
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a6bce401e3822e0800000000000000
+      internalID: -2150400582307059181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_26
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c82c8b1a7d4b970800000000000000
+      internalID: 8769871463986662484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_27
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c5dcdf6d80c55b0800000000000000
+      internalID: -5378414135513097120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_28
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767998365faea9930800000000000000
+      internalID: 4150888346233182055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_29
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 111
+        width: 2134
+        height: 2161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985d8c40b4c3945c0800000000000000
+      internalID: -4230784082037385847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_30
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898b7d7958cb9f910800000000000000
+      internalID: 1871734402113321112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_31
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1969
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9335e24325f82fb0800000000000000
+      internalID: -4672215081601911907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_32
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1764
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5ff7d0ef36c2f80800000000000000
+      internalID: -8130013284511255077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_33
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 1789
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec7664d3f4fd2b90800000000000000
+      internalID: -7264881295801025309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_34
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1796
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ec8fa7897e80a50800000000000000
+      internalID: 6487689905311370807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_35
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1707
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bda1853729e49b0800000000000000
+      internalID: -5093973104412402831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_36
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1745
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e705216e2891b6410800000000000000
+      internalID: 1471297753263001726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_37
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1647
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a0c39b24bef4a70800000000000000
+      internalID: 8813521667595438630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_38
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1677
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b1215ab90645fd0800000000000000
+      internalID: -2354150483602302181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_39
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1313
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c46df3fe23c49d90800000000000000
+      internalID: -7091828906772306749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_40
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 1368
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d729446ea5f0634e0800000000000000
+      internalID: -2002396101234879875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_41
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1163
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe7cf75268e6d350800000000000000
+      internalID: 6041271459244703476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_42
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 1188
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8c81a2878029000800000000000000
+      internalID: 41104658795120824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_43
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1195
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e97930da53ade690800000000000000
+      internalID: -7571215788104123931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_44
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1106
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e74f22f29085c5e0800000000000000
+      internalID: -1889963099995289623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_45
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1144
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773615fbcaf2fdb70800000000000000
+      internalID: 8925905405462274935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_46
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1045
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed314ca1e2149e20800000000000000
+      internalID: 3356328382764760555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_47
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1076
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2c3dd380f4070e0800000000000000
+      internalID: -2274230915006479678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_48
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 712
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303beec13f2887e80800000000000000
+      internalID: -8180644742444436733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_49
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 767
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844aa7d7f84b1c250800000000000000
+      internalID: 5963245909993759816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_50
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 562
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee7b2f621dabe010800000000000000
+      internalID: 1219258418819989229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_51
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 587
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06237fdec0a187980800000000000000
+      internalID: -8541048050473815456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_52
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 594
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bdc2c7474723050800000000000000
+      internalID: 5778809315518110601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_53
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 505
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6928f3afb1ac95820800000000000000
+      internalID: 2907577255955759766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_54
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 543
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee38d6513614c0b0800000000000000
+      internalID: -5709414026432725265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_55
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 445
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60cdd4a0f6577a90800000000000000
+      internalID: -7316283478081945490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_56
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 475
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c94230fb4d1988f0800000000000000
+      internalID: -537866468504483386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_57
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b032e4f149ac980c0800000000000000
+      internalID: -4572901209088842997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_58
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 166
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dd73cfbbff47b20800000000000000
+      internalID: 3131408823784824158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609a77e215e4b48f0800000000000000
+      internalID: -555264018471212794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_60
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93459b13562ea420800000000000000
+      internalID: 2643092169699967903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_61
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731b96b2afa074350800000000000000
+      internalID: 6000777098080923959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_62
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea98ac809a2209b0800000000000000
+      internalID: -5115479426415944990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_63
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66b60e6e24e090f0800000000000000
+      internalID: -1112138219894950293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_64
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbeffbc4b321ab40800000000000000
+      internalID: 5449676283518643130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_65
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a66e1f3d5f50d0f0800000000000000
+      internalID: -1094269855355476320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_66
+      rect:
+        serializedVersion: 2
+        x: 2287
+        y: 0
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583f2c8ba6b3d3e10800000000000000
+      internalID: 2178963124269544325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-a-rat-close-up-png-image_15564008_67
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 0
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ef46b1251697830800000000000000
+      internalID: 4069390743580769877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-a-rat-close-up-png-image_15564008_0: 7796899919327893177
+      pngtree-a-rat-close-up-png-image_15564008_1: -2446950098868322962
+      pngtree-a-rat-close-up-png-image_15564008_10: 678267615615521394
+      pngtree-a-rat-close-up-png-image_15564008_11: -2579262878426328228
+      pngtree-a-rat-close-up-png-image_15564008_12: 937542616602340402
+      pngtree-a-rat-close-up-png-image_15564008_13: 3764605369757204255
+      pngtree-a-rat-close-up-png-image_15564008_14: -5987035191547327735
+      pngtree-a-rat-close-up-png-image_15564008_15: 3708535282162084290
+      pngtree-a-rat-close-up-png-image_15564008_16: 5968391471031744173
+      pngtree-a-rat-close-up-png-image_15564008_17: 111393436691832800
+      pngtree-a-rat-close-up-png-image_15564008_18: 4130330755777351548
+      pngtree-a-rat-close-up-png-image_15564008_19: -7405526849786088241
+      pngtree-a-rat-close-up-png-image_15564008_2: 3324336572432072915
+      pngtree-a-rat-close-up-png-image_15564008_20: -2941314174559428177
+      pngtree-a-rat-close-up-png-image_15564008_21: -127193143873899783
+      pngtree-a-rat-close-up-png-image_15564008_22: -1780448505451829296
+      pngtree-a-rat-close-up-png-image_15564008_23: -9043798867220207824
+      pngtree-a-rat-close-up-png-image_15564008_24: 5929321508748337190
+      pngtree-a-rat-close-up-png-image_15564008_25: -2150400582307059181
+      pngtree-a-rat-close-up-png-image_15564008_26: 8769871463986662484
+      pngtree-a-rat-close-up-png-image_15564008_27: -5378414135513097120
+      pngtree-a-rat-close-up-png-image_15564008_28: 4150888346233182055
+      pngtree-a-rat-close-up-png-image_15564008_29: -4230784082037385847
+      pngtree-a-rat-close-up-png-image_15564008_3: 3481327659217999506
+      pngtree-a-rat-close-up-png-image_15564008_30: 1871734402113321112
+      pngtree-a-rat-close-up-png-image_15564008_31: -4672215081601911907
+      pngtree-a-rat-close-up-png-image_15564008_32: -8130013284511255077
+      pngtree-a-rat-close-up-png-image_15564008_33: -7264881295801025309
+      pngtree-a-rat-close-up-png-image_15564008_34: 6487689905311370807
+      pngtree-a-rat-close-up-png-image_15564008_35: -5093973104412402831
+      pngtree-a-rat-close-up-png-image_15564008_36: 1471297753263001726
+      pngtree-a-rat-close-up-png-image_15564008_37: 8813521667595438630
+      pngtree-a-rat-close-up-png-image_15564008_38: -2354150483602302181
+      pngtree-a-rat-close-up-png-image_15564008_39: -7091828906772306749
+      pngtree-a-rat-close-up-png-image_15564008_4: -2981470312497100364
+      pngtree-a-rat-close-up-png-image_15564008_40: -2002396101234879875
+      pngtree-a-rat-close-up-png-image_15564008_41: 6041271459244703476
+      pngtree-a-rat-close-up-png-image_15564008_42: 41104658795120824
+      pngtree-a-rat-close-up-png-image_15564008_43: -7571215788104123931
+      pngtree-a-rat-close-up-png-image_15564008_44: -1889963099995289623
+      pngtree-a-rat-close-up-png-image_15564008_45: 8925905405462274935
+      pngtree-a-rat-close-up-png-image_15564008_46: 3356328382764760555
+      pngtree-a-rat-close-up-png-image_15564008_47: -2274230915006479678
+      pngtree-a-rat-close-up-png-image_15564008_48: -8180644742444436733
+      pngtree-a-rat-close-up-png-image_15564008_49: 5963245909993759816
+      pngtree-a-rat-close-up-png-image_15564008_5: -4589190151564699099
+      pngtree-a-rat-close-up-png-image_15564008_50: 1219258418819989229
+      pngtree-a-rat-close-up-png-image_15564008_51: -8541048050473815456
+      pngtree-a-rat-close-up-png-image_15564008_52: 5778809315518110601
+      pngtree-a-rat-close-up-png-image_15564008_53: 2907577255955759766
+      pngtree-a-rat-close-up-png-image_15564008_54: -5709414026432725265
+      pngtree-a-rat-close-up-png-image_15564008_55: -7316283478081945490
+      pngtree-a-rat-close-up-png-image_15564008_56: -537866468504483386
+      pngtree-a-rat-close-up-png-image_15564008_57: -4572901209088842997
+      pngtree-a-rat-close-up-png-image_15564008_58: 3131408823784824158
+      pngtree-a-rat-close-up-png-image_15564008_59: -555264018471212794
+      pngtree-a-rat-close-up-png-image_15564008_6: 4008463405001733935
+      pngtree-a-rat-close-up-png-image_15564008_60: 2643092169699967903
+      pngtree-a-rat-close-up-png-image_15564008_61: 6000777098080923959
+      pngtree-a-rat-close-up-png-image_15564008_62: -5115479426415944990
+      pngtree-a-rat-close-up-png-image_15564008_63: -1112138219894950293
+      pngtree-a-rat-close-up-png-image_15564008_64: 5449676283518643130
+      pngtree-a-rat-close-up-png-image_15564008_65: -1094269855355476320
+      pngtree-a-rat-close-up-png-image_15564008_66: 2178963124269544325
+      pngtree-a-rat-close-up-png-image_15564008_67: 4069390743580769877
+      pngtree-a-rat-close-up-png-image_15564008_7: -7713926361409991653
+      pngtree-a-rat-close-up-png-image_15564008_8: -434929633839121130
+      pngtree-a-rat-close-up-png-image_15564008_9: -2904845410553548527
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
