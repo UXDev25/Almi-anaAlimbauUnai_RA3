@@ -146,6 +146,7 @@ MonoBehaviour:
   damage: 1
   knockBackPow: 10
   despawnTime: 2
+  despawnWallTime: 1
 --- !u!50 &8580809043039525215
 Rigidbody2D:
   serializedVersion: 5

@@ -140,7 +140,7 @@ MonoBehaviour:
   damage: 1
   knockBackPow: 10
   edgeChecker: {fileID: 4589267678241718718}
-  wallRayCastSize: 0.6
+  wallRayCastSize: 0.75
   maxWalkSpeed: 6
   GroundRayCastSize: 0.25
   groundAndPlayerMask:

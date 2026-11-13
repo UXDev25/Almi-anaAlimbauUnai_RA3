@@ -31,6 +31,11 @@ public class PlayerAnimController : MonoBehaviour
         isStunned = player.IsStunned;
         animator.SetBool(IsDeadHash, isStunned);
         animator.SetBool(TurningHash, player.IsTurning);
+        if (player.IsTurning && player.groundDetector.IsGrounded)
+        {
+            player.IsTurning = false;
+            FlipCharacter();
+        }
         //Debug.Log($"is walking: {isWalking}, isMidAir: {isMidAir}");
     }
 
