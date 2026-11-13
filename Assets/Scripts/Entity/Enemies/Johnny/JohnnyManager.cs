@@ -32,7 +32,7 @@ public class JohnnyManager : EnemyManager
 		raycastHit = Physics2D.Raycast(transform.position, dir, wallRayCastSize, groundAndPlayerMask);
 		Debug.DrawRay(transform.position, dir * wallRayCastSize, Color.red);
 
-		bool hitWall = raycastHit.collider != null && raycastHit.collider.CompareTag("Ground");
+		bool hitWall = raycastHit.collider != null && (raycastHit.collider.CompareTag("Ground") || raycastHit.collider.CompareTag("Death"));
 
 		if (hitWall || (IsNearEdge() && groundDetector.IsGrounded))
 		{

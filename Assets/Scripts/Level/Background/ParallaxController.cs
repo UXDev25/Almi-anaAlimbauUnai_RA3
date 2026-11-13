@@ -34,7 +34,7 @@ public class ParallaxController : MonoBehaviour
          {
                 return;
          }
-         _offset = ((LevelManager.Instance.Player.rb.linearVelocity.x + _baseMovementMult) * _movementSpeedMultiplier) * _movementSpeed * Time.deltaTime;
+         _offset = (((LevelManager.Instance == null ? 0 : LevelManager.Instance.Player.rb.linearVelocity.x) + _baseMovementMult) * _movementSpeedMultiplier) * _movementSpeed * Time.deltaTime;
          _material.mainTextureOffset += _offset;
         
     }

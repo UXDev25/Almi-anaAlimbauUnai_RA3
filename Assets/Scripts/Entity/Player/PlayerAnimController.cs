@@ -31,11 +31,6 @@ public class PlayerAnimController : MonoBehaviour
         isStunned = player.IsStunned;
         animator.SetBool(IsDeadHash, isStunned);
         animator.SetBool(TurningHash, player.IsTurning);
-        if (player.IsTurning && player.groundDetector.IsGrounded)
-        {
-            player.IsTurning = false;
-            FlipCharacter();
-        }
         //Debug.Log($"is walking: {isWalking}, isMidAir: {isMidAir}");
     }
 
@@ -48,6 +43,15 @@ public class PlayerAnimController : MonoBehaviour
         else if (player.MoveValue.x < 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
+        }
+    }
+
+    public void CheckIfGroundedAtTurn()
+    {
+        if (player.IsTurning && player.groundDetector.IsGrounded)
+        {
+            player.IsTurning = false;
+            FlipCharacter();
         }
     }
 

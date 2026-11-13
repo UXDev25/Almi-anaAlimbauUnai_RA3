@@ -552,7 +552,7 @@ GameObject:
   - component: {fileID: 199898875}
   - component: {fileID: 199898874}
   - component: {fileID: 199898873}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: DeathTiles
   m_TagString: Death
   m_Icon: {fileID: 0}
@@ -3292,6 +3292,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6953317566439950110, guid: 6fdb33aec6dab104a89e567c656f587b, type: 3}
+      propertyPath: m_FlipY
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3987,11 +3991,11 @@ MonoBehaviour:
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
   m_ActionsAsset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_PointAction: {fileID: 0}
+  m_PointAction: {fileID: -6530461479727373033, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_MoveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_SubmitAction: {fileID: 1781555164194001046, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_CancelAction: {fileID: 0}
-  m_LeftClickAction: {fileID: 0}
+  m_LeftClickAction: {fileID: -625124064851952242, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_MiddleClickAction: {fileID: 0}
   m_RightClickAction: {fileID: 0}
   m_ScrollWheelAction: {fileID: 0}
