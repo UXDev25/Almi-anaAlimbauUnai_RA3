@@ -1,19 +1,42 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
-    public List<LevelCollider> cameraLevelsPos = new List<LevelCollider>();
-    public Collider2D CurrentLevelArea { get; set; }
+
+	// --VARIABLES --
+	public int deathCounter { get; set; } = 0;
+	public Collider2D CurrentLevelArea { get; set; }
+
+    [SerializeField] TMP_Text deathCountText;
+	public List<LevelCollider> cameraLevelsPos = new List<LevelCollider>();
     public Transform FirstSpawn;
     public BasePlayer Player { get; set; }
     [SerializeField] private GameObject PlayerPrefab;
+    
 
     public Dictionary<string, Sprite> characterPortraits = new Dictionary<string, Sprite>();
 
-    private void Awake()
+    public void OnEnable()
+    {
+        GameEvents.OnPlayerDied += IncreaseDeathCounter;
+    }
+
+	public void OnDisable()
+	{
+        GameEvents.OnPlayerDied -= IncreaseDeathCounter;
+	}
+
+    void IncreaseDeathCounter() 
+    {
+        deathCounter++;
+        deathCountText.text = deathCounter.ToString();
+    }
+
+	private void Awake()
     {
         if (Instance != null) 
         { 

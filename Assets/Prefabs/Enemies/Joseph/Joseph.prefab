@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 7371901681063169358}
   - component: {fileID: 5642454635532031272}
   - component: {fileID: 1616999864577088558}
+  - component: {fileID: 2155929408449041618}
+  - component: {fileID: 3094134571550490930}
   m_Layer: 9
   m_Name: Joseph
   m_TagString: Untagged
@@ -85,7 +87,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 7
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 8307541283026101165, guid: 41a9434ed561c8b4db4c3d144fe4f39c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -152,7 +154,7 @@ MonoBehaviour:
   damage: 1
   knockBackPow: 10
   isLookingRight: 1
-  data: {fileID: 0}
+  data: {fileID: 11400000, guid: c1ddbcf75ec5860418ac05d0bc8231a4, type: 2}
 --- !u!61 &1616999864577088558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -191,7 +193,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0625, y: 1}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -199,3 +201,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &2155929408449041618
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5525457508162356495}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aeca6b21ea7ade74790c4f6b1763811c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3094134571550490930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5525457508162356495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d88dc1122107c141bc70ac9b8900924, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JosephAnimations

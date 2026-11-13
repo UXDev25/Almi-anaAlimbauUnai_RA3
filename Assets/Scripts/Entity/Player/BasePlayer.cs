@@ -22,7 +22,6 @@ public class BasePlayer : Entity, InputSystem_Actions.IPlayerActions, IMovable
     private bool isPaused = false;
     [SerializeField] private float GravityMult = 1;
 	[SerializeField] private float dieTime = 2;
-	[SerializeField] private float TurnAroundTime = 0.5f;
 	[SerializeField] private float gravityChangeImpulse = 5f;
 
     void Awake()

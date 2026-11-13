@@ -11,7 +11,6 @@ public class JohnnyManager : EnemyManager
 	// --VARIABLES
 	[SerializeField] private float wallRayCastSize = 0.6f;
 	[SerializeField] private float maxWalkSpeed = 2f;
-	[SerializeField] private float GroundRayCastSize = 0.6f;
 	[SerializeField] private LayerMask groundAndPlayerMask;
 
     protected override void Start()

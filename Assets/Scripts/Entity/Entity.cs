@@ -13,7 +13,7 @@ public abstract class Entity : MonoBehaviour
 	protected readonly string lifeMaskHash = "Default";
 
 	// -- COMPONENTS
-	public Rigidbody2D rb { get; private set; }
+	public Rigidbody2D rb { get; protected set; }
 
 	
 

@@ -7,20 +7,25 @@ public class JosephineController : EnemyManager
 	[SerializeField] private float despawnTime = 2f;
     [SerializeField] private float despawnWallTime = 1f;
     private BulletPool parentPool;
-	private Rigidbody2D bulletRb;
 
-	private void Awake()
-	{
-		bulletRb = GetComponent<Rigidbody2D>();
-	}
+	// -- Animator --
+	private Animator animator;
+	private bool isDead;
+	private readonly int isDeadHash = Animator.StringToHash("isDead");
+
 
 	public void SetPool(BulletPool pool) => parentPool = pool;
 
 	public void Init(Vector2 direction, float shootForce)
 	{
-        bulletRb.linearVelocity = Vector2.zero;
-		bulletRb.angularVelocity = 0f;
-		bulletRb.AddForce(direction * shootForce, ForceMode2D.Impulse);
+		if (animator == null) animator = GetComponent<Animator>();
+		if (rb == null) rb = GetComponent<Rigidbody2D>();
+
+		isDead = false;
+		animator.SetBool(isDeadHash, isDead);
+		rb.linearVelocity = Vector2.zero;
+		rb.angularVelocity = 0f;
+		rb.AddForce(direction * shootForce, ForceMode2D.Impulse);
 		StartCoroutine(DespawnRoutine(despawnTime));
 	}
 
@@ -36,7 +41,9 @@ public class JosephineController : EnemyManager
 		if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Death")) 
 		{
 			StopCoroutine(DespawnRoutine(despawnTime));
-			rb.simulated = false;
+			base.rb.simulated = false;
+			isDead = true;
+			animator.SetBool(isDeadHash, isDead);
             StartCoroutine(DespawnRoutine(despawnWallTime));
         }
     }
